@@ -1,22 +1,24 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+    'https://drive.google.com/drive/folders/11WB-Ulh61_wvebjhK4dgNmyadPpfB0OC?usp=drive_link';
+
+    
 
 // Github Link
-const String gitHub = 'https://github.com/sudeshnb';
+const String gitHub = 'https://github.com/Siva-coder676';
 // Github Link
-const String facebook = 'https://facebook.com/sudeshnb';
+const String facebook = 'https://www.facebook.com/siva.prajee?mibextid=ZbWKwL';
 // Github Link
-const String twitter = 'https://twitter.com/sudesh78';
+const String twitter = 'https://twitter.com/Prajee13';
 // Github Link
 const String youtube =
     'https://www.youtube.com/channel/UCXooUY2oL_eqGhTaZn-ExSg';
 // Github Link
-const String linkedin = 'https://linkedin.com/in/sudeshnb';
+const String linkedin = 'https://www.linkedin.com/in/siva-prajith-a-a7511617a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app';
 // Github Link
 const String buymeacoffee = 'https://www.buymeacoffee.com/sudeshnb';
 // Github Link
-const String instagram = 'https://instagram.com/sudesh_nish';
+const String instagram = 'https://www.instagram.com/prajee_ranger/';
 // socialLinks
 // const List<String> socialLinks = [
 //   "https://facebook.com/sudeshnb",
@@ -35,4 +37,4 @@ const String fiverr = 'https://www.fiverr.com/sudeshnb';
 // Github Link
 const String upwork = 'https://www.upwork.com/freelancers/~015c46144016569e31';
 // Github Link
-const String whatsapp = 'https://api.whatsapp.com/send?phone=94741325674';
+const String whatsapp = 'https://api.whatsapp.com/send?phone=9500390812';

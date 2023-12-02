@@ -17,33 +17,33 @@ List<ProjectUtils> projectUtils = [
   ProjectUtils(
     banners: 'assets/imgs/02.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Social Media App',
+    titles: 'Insite THCM',
     description:
-        'This is a just Fully functional Social media App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/poetically-.git',
+        'This app used by the Insite users to track their fleet and get live updates about machine health, performance and location.',
+    links: 'https://play.google.com/store/apps/details?id=com.trimble.insite.indiastack',
   ),
   ProjectUtils(
     banners: 'assets/imgs/1.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome CRM UI',
+    titles: 'HotKup',
     description:
-        'This is a just CRM UI Design using Figma, file is also available, check below.',
-    links: 'https://github.com/sudeshnb/',
+        'Collaborate from anywhere with bundled tasks, team messaging, and project management on one unified platform.',
+    links: 'https://play.google.com/store/apps/details?id=com.hotkup.app.prod',
   ),
   ProjectUtils(
     banners: 'assets/imgs/03.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Exercise App',
+    titles: 'HerDreamStore',
     description:
-        'This is a just Fully function Exercise App by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/elderly_exercise_app.git',
+        'HerDreamStore is the most beloved online shopping platform.HerDreamStoreapp is changing the way customers approach their daily essentials.',
+    links: 'https://play.google.com/store/apps/details?id=com.herdreamstore.com',
   ),
   ProjectUtils(
     banners: 'assets/imgs/04.png',
     icons: 'assets/imgs/flutter.png',
-    titles: 'Awesome Plant App UI',
+    titles: 'WorksIQ Sync',
     description:
-        'This is a just Plant App UI by using flutter, source code is also available, check below.',
-    links: 'https://github.com/sudeshnb/flutter_plant_app.git',
+        'App is used to validate the telematics device mounted on the assets/vehicles. This app helps to identify if there are any issues with the device and to check if the output is as per the standard.',
+    links: 'https://play.google.com/store/apps/details?id=com.trimble.upgraded.eol.sync',
   ),
 ];

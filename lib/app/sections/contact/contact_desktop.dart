@@ -18,7 +18,7 @@ class ContactDesktop extends StatelessWidget {
     return Container(
       // padding: Space.all(1, 1),
       // padding: EdgeInsets.symmetric(horizontal: AppDimensions.normalize(30)),
-      padding: EdgeInsets.symmetric(horizontal: size.width / 8),
+      padding: EdgeInsets.symmetric(horizontal: size.width / 10),
       child: Column(
         children: [
           const CustomSectionHeading(text: "\nGet in Touch"),
