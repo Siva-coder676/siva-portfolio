@@ -48,67 +48,74 @@ class MainPage extends StatelessWidget {
       drawer: !Responsive.isDesktop(context) ? const _MobileDrawer() : null,
       body: BlocBuilder<ThemeCubit, ThemeState>(
         builder: (context, state) {
-          return Stack(
-            children: [
-              Positioned(
-                top: height * 0.2,
-                left: -88,
-                child: Container(
-                  height: height / 3,
-                  width: 166,
-                  decoration: const BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: secondaryColor,
-                  ),
-                  child: BackdropFilter(
-                    filter: ImageFilter.blur(sigmaX: 200, sigmaY: 200),
+          return SafeArea(
+
+            child: SingleChildScrollView(
+              child: Stack(
+                children: [
+                  Positioned(
+                    top: height * 0.2,
+                    left: -88,
                     child: Container(
-                      height: 166,
+                      height: height / 3,
                       width: 166,
-                      color: Colors.transparent,
+                      decoration: const BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: secondaryColor,
+                      ),
+                      child: BackdropFilter(
+                        filter: ImageFilter.blur(sigmaX: 200, sigmaY: 200),
+                        child: Container(
+                          height: 166,
+                          width: 166,
+                          color: Colors.transparent,
+                        ),
+                      ),
                     ),
                   ),
-                ),
-              ),
-              Positioned(
-                bottom: 0,
-                right: -100,
-                child: Container(
-                  height: 100,
-                  width: 200,
-                  decoration: BoxDecoration(
-                    shape: BoxShape.circle,
-                    color: primaryColor.withOpacity(0.5),
-                  ),
-                  child: BackdropFilter(
-                    filter: ImageFilter.blur(
-                      sigmaX: 500,
-                      sigmaY: 500,
-                    ),
+                  Positioned(
+                    bottom: 0,
+                    right: -100,
                     child: Container(
-                      height: 200,
+                      height: 100,
                       width: 200,
-                      color: Colors.transparent,
+                      decoration: BoxDecoration(
+                        shape: BoxShape.circle,
+                        color: primaryColor.withOpacity(0.5),
+                      ),
+                      child: BackdropFilter(
+                        filter: ImageFilter.blur(
+                          sigmaX: 500,
+                          sigmaY: 500,
+                        ),
+                        child: Container(
+                          height: 200,
+                          width: 200,
+                          color: Colors.transparent,
+                        ),
+                      ),
                     ),
                   ),
-                ),
+                  if (!state.isDarkThemeOn)
+                    Align(
+                      alignment: Alignment.center,
+                      // BG01.png
+                      child: Image.asset(
+                        'assets/imgs/5424482.JPG',
+                        opacity: const AlwaysStoppedAnimation<double>(0.2),
+                        width: width,
+                        height: height,
+                        fit: BoxFit.cover,
+                        alignment: Alignment.topCenter,
+                      ),
+                    ),
+                  Container(
+                    height: MediaQuery.of(context).size.height*0.95,
+                    child: _Body()),
+                  const ArrowOnTop()
+                ],
               ),
-              if (!state.isDarkThemeOn)
-                Align(
-                  alignment: Alignment.center,
-                  // BG01.png
-                  child: Image.asset(
-                    'assets/imgs/5424482.JPG',
-                    opacity: const AlwaysStoppedAnimation<double>(0.2),
-                    width: width,
-                    height: height,
-                    fit: BoxFit.cover,
-                    alignment: Alignment.topCenter,
-                  ),
-                ),
-              _Body(),
-              const ArrowOnTop()
-            ],
+            ),
           );
         },
       ),

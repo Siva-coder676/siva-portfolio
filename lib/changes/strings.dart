@@ -11,9 +11,7 @@ String animationtxt3 = "";
 String contactHeadding = "Let’s try my service now!";
 String contactSubHeadding =
     "Let’s work together and make everything super cute and super useful.";
-//
-String miniDescription =
-    "Seeking a position to utilize my skills and abilities in the information technology and have 3+ experience. Currently working as an Flutter Developer at Fidisys. ";
+String miniDescription ="Results-driven Flutter developer skilled in building scalable, highperformance cross-platform apps with clean UI/UX.Strong in RESTful API integration, state management, CI/CD pipelines, and Agile collaboration. Eager to contribute to impactful projects while continuously growing as a developer and problem-solver in a dynamic team environment.";
 
 String servicesSubHeading =
     "Since the beginning of my journey as a  developer and  freelance, I've worked in startups and collaborated with talented people to create digital products for both business and consumer use. I offer a wide range of services, including brand design, programming and teaching.";
